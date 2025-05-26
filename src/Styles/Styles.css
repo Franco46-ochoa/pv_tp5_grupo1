@@ -32,3 +32,34 @@
     font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+
+.pie_pagina {
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #d6ccc2;
+  margin-top: auto;
+
+}
+.footer_izquierda {
+  color: #003366;
+  font-weight: 400;
+}
+.footer_derecha {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.footer_linea_vertical {
+  width: 2px;
+  height: 1em;
+  background-color: #333;
+  margin: 0 0.5rem;
+}
+.footer_nombre_app{
+     font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 10px;
+}
