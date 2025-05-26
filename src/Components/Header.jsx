@@ -6,7 +6,7 @@ function Header() {
     <div className='Encabezado'>
       <div className='abreviatura'> FIPA </div>
       <div className='linea-vertical'></div>
-      <div className='Nombre_app'> Formulario de Infoformacion Personal de Alumnos</div>
+      <div className='Nombre_app'> Formulario de Infoformacion Personal de Alumnos.</div>
     </div>
     
   )
