@@ -8,7 +8,7 @@ function Home() {
       <div className='descripcion_home'>Este sistema esta diseñado para registrar y consultar la información personal de alumnos de forma simple y segura.</div>
       <ul className='descripcion_list'>
         <li> Registrar nuevo alumno</li>
-        <li> Consultar lista de alumnos y modificarlo</li>
+        <li> Consultar lista de alumnos y modificarlos</li>
         <li> Acerca los creadores de la pagina</li>
       </ul>
     </div>
