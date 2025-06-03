@@ -13,6 +13,15 @@ const AlumnosProvider = ({ children }) => {
       domicilio: 'Av. Congreso 125',
       telefono: '3884895999',
     },
+    {
+      id: 'APU006358',
+      nombre: 'Franco Luciano Emmanuel ',
+      apellido: 'Ochoa',
+      curso: 'Segundo',
+      email: '46323573@fi.unju.edu.ar',
+      domicilio: 'B°3 de Agosto Los Huaicos',
+      telefono: '3885177976',
+    },
   ]);
 
   const agregarAlumno = (nuevoAlumno) => {
