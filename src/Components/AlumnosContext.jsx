@@ -35,4 +35,4 @@ const AlumnosProvider = ({ children }) => {
 };
 
 const useAlumnos = () => useContext(AlumnosContext);
-export { AlumnosProvider, useAlumnos };
+export { AlumnosProvider, useAlumnos};
