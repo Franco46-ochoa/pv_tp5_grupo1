@@ -1,12 +1,34 @@
-# React + Vite
+# FIPA - Formulario de Información Personal de Alumnos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto fue desarrollado como parte del Trabajo Práctico N°5 de la materia Programación Visual.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**FIPA** es una aplicación web desarrollada con React que permite:
 
-## Expanding the ESLint configuration
+- Registrar nuevos alumnos
+- Consultar la lista de alumnos existentes
+- Editar, buscar y eliminar información de alumnos
+- Ver información detallada de cada alumno
+- Acceder a una vista de "Acerca de" con datos del equipo desarrollador
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+La aplicación utiliza rutas, contexto y almacenamiento local (`localStorage`) para gestionar los datos.
+
+---
+
+## Integrantes del grupo
+
+| Nombre completo                      | LU         | GitHub               |
+|-------------------------------------|------------|----------------------|
+| Franco Luciano Emmanuel Ochoa       | APU006358  | [@Franco46-ochoa](https://github.com/Franco46-ochoa) |
+
+---
+
+##  Tecnologías usadas
+
+- React
+- React Router DOM
+- Bootstrap
+- Vite
+
+---
