@@ -10,6 +10,7 @@ import DetalleAlumno from './Components/DetalleAlumno';
 import NuevoAlumno from './Components/NuevoAlumno';
 import EditarAlumno from './Components/EditarAlumnos';
 import BuscarAlumno from './Components/Buscar';
+import Acerca from './Components/Acerca';
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
         <Route path="/alumnos/nuevo" element={<NuevoAlumno />} />
         <Route path="/alumnos/:id/editar" element={<EditarAlumno />} />
         <Route path="/buscar" element={<BuscarAlumno/>} />
+        <Route path="/acerca" element={<Acerca/>}/>
+
       </Routes>
       <Footer/>
     </div>
