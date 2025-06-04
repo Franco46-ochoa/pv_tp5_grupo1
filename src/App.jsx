@@ -9,6 +9,8 @@ import ListaAlumnos from './Components/ListaAlumnos';
 import DetalleAlumno from './Components/DetalleAlumno';
 import NuevoAlumno from './Components/NuevoAlumno';
 import EditarAlumno from './Components/EditarAlumnos';
+import BuscarAlumno from './Components/Buscar';
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
         <Route path="/alumnos/:id" element={<DetalleAlumno />} />
         <Route path="/alumnos/nuevo" element={<NuevoAlumno />} />
         <Route path="/alumnos/:id/editar" element={<EditarAlumno />} />
+        <Route path="/buscar" element={<BuscarAlumno/>} />
       </Routes>
       <Footer/>
     </div>
