@@ -51,3 +51,9 @@ button {
 button:hover {
   background-color: #895e3b;
 }
+.tabla-estilizada {
+  border-radius: 20px; /* Aumenta este valor para más redondeo */
+  overflow: hidden; /* Necesario para que el redondeo funcione en las esquinas */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Opcional: agrega sombra suave */
+  background-color: #ffffff;
+}
